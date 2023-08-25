@@ -3,7 +3,8 @@ import pandas as pd
 
 # read_csv function which is used to read the required CSV file
 #change this argument to cycle through the csv files you want to append to the total.
-#if i was better i would loop this 
+#if i was better i would loop this to go through all the files in the directory.
+# so instead i hardcoded the source and destination arguments for .read_csv and .to_csv
 data = pd.read_csv('DataAnalysis/202305-divvy-tripdata/202305-divvy-tripdata.csv')
 
 # display
